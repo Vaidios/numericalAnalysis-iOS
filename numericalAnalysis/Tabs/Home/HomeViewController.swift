@@ -15,7 +15,6 @@ class HomeViewController: UITableViewController, Storyboarded {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         assert(coordinator != nil, "Coordinator has to be set before presenting controller")
         title = "Home"
         tableView.dataSource = dataSource

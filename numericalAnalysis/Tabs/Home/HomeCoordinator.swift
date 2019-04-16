@@ -17,7 +17,7 @@ class HomeCoordinator: Coordinator {
         navigationController.coordinator = self
         
         let viewController = HomeViewController.instantiate()
-        viewController.tabBarItem = UITabBarItem(title: "Home", image: nil, tag: 0)
+        viewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(contentsOfFile: "Home"), tag: 0)
         viewController.coordinator = self
         
         navigationController.viewControllers = [viewController]
@@ -26,7 +26,8 @@ class HomeCoordinator: Coordinator {
         navigationController.pushViewController(viewController, animated: true)
     }
     func startTopic(title: String) {
-        let viewController = TopicViewController()
+        let viewController = TopicViewController.instantiate()
+        viewController.coordinator = self
         startTopic(using: viewController)
     }
 }

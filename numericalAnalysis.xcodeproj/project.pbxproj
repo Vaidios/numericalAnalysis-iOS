@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8702C212F83DABF33C5DF903 /* Pods_numericalAnalysis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48ED31701C7D23E61F2A377 /* Pods_numericalAnalysis.framework */; };
 		AC81DA1C2265271D008D0DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */; };
 		AC81DA1E2265271D008D0DA0 /* MainTabBarContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA1D2265271D008D0DA0 /* MainTabBarContoller.swift */; };
 		AC81DA212265271D008D0DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC81DA1F2265271D008D0DA0 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		AC81DA2F22652CB4008D0DA0 /* BaseDiffrentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA2E22652CB4008D0DA0 /* BaseDiffrentiation.swift */; };
 		AC81DA3122652CFD008D0DA0 /* ForwardDiffrentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3022652CFD008D0DA0 /* ForwardDiffrentiation.swift */; };
 		AC81DA3322652D2F008D0DA0 /* BackwardDiffrentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3222652D2F008D0DA0 /* BackwardDiffrentiation.swift */; };
-		AC81DA3522652DA4008D0DA0 /* DiffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3422652DA4008D0DA0 /* DiffViewController.swift */; };
 		AC81DA382265CEFC008D0DA0 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA372265CEFC008D0DA0 /* Storyboarded.swift */; };
 		AC81DA3A2265D402008D0DA0 /* NumericalAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */; };
 		AC81DA432265DF54008D0DA0 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA422265DF54008D0DA0 /* HomeCoordinator.swift */; };
@@ -30,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A843CD066D5D749B7D6515C /* Pods-numericalAnalysis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numericalAnalysis.release.xcconfig"; path = "Target Support Files/Pods-numericalAnalysis/Pods-numericalAnalysis.release.xcconfig"; sourceTree = "<group>"; };
 		AC81DA182265271D008D0DA0 /* numericalAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numericalAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC81DA1D2265271D008D0DA0 /* MainTabBarContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarContoller.swift; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		AC81DA2E22652CB4008D0DA0 /* BaseDiffrentiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDiffrentiation.swift; sourceTree = "<group>"; };
 		AC81DA3022652CFD008D0DA0 /* ForwardDiffrentiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardDiffrentiation.swift; sourceTree = "<group>"; };
 		AC81DA3222652D2F008D0DA0 /* BackwardDiffrentiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardDiffrentiation.swift; sourceTree = "<group>"; };
-		AC81DA3422652DA4008D0DA0 /* DiffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffViewController.swift; sourceTree = "<group>"; };
 		AC81DA372265CEFC008D0DA0 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericalAnalysis.swift; sourceTree = "<group>"; };
 		AC81DA422265DF54008D0DA0 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -52,6 +52,9 @@
 		AC81DA512265F13B008D0DA0 /* BundleLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleLoading.swift; sourceTree = "<group>"; };
 		AC81DA532265F2B8008D0DA0 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		AC81DA562265F6DB008D0DA0 /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		AC81DA592266002C008D0DA0 /* numericalAnalysis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "numericalAnalysis-Bridging-Header.h"; sourceTree = "<group>"; };
+		E48ED31701C7D23E61F2A377 /* Pods_numericalAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numericalAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18DE572F5D31BDE36812552 /* Pods-numericalAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numericalAnalysis.debug.xcconfig"; path = "Target Support Files/Pods-numericalAnalysis/Pods-numericalAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8702C212F83DABF33C5DF903 /* Pods_numericalAnalysis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +72,18 @@
 		1307A16F176EFC6278BD5C9D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				F18DE572F5D31BDE36812552 /* Pods-numericalAnalysis.debug.xcconfig */,
+				1A843CD066D5D749B7D6515C /* Pods-numericalAnalysis.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A49414DCC3EFAA3FC4CDC9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E48ED31701C7D23E61F2A377 /* Pods_numericalAnalysis.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		AC81DA0F2265271D008D0DA0 = {
@@ -78,6 +92,7 @@
 				AC81DA1A2265271D008D0DA0 /* numericalAnalysis */,
 				AC81DA192265271D008D0DA0 /* Products */,
 				1307A16F176EFC6278BD5C9D /* Pods */,
+				2A49414DCC3EFAA3FC4CDC9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +109,9 @@
 			children = (
 				AC81DA502265F123008D0DA0 /* Extensions */,
 				AC81DA462265E066008D0DA0 /* Reusables */,
+				AC81DA362265CD7C008D0DA0 /* Protocols */,
 				AC81DA402265DF22008D0DA0 /* Tabs */,
 				AC81DA3B2265D4B8008D0DA0 /* Math */,
-				AC81DA362265CD7C008D0DA0 /* Protocols */,
-				AC81DA2D22652C35008D0DA0 /* Chapter4 */,
 				AC81DA4D2265EE10008D0DA0 /* Content */,
 				AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */,
 				AC81DA1D2265271D008D0DA0 /* MainTabBarContoller.swift */,
@@ -105,16 +119,9 @@
 				AC81DA242265271F008D0DA0 /* LaunchScreen.storyboard */,
 				AC81DA272265271F008D0DA0 /* Info.plist */,
 				AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */,
+				AC81DA592266002C008D0DA0 /* numericalAnalysis-Bridging-Header.h */,
 			);
 			path = numericalAnalysis;
-			sourceTree = "<group>";
-		};
-		AC81DA2D22652C35008D0DA0 /* Chapter4 */ = {
-			isa = PBXGroup;
-			children = (
-				AC81DA3422652DA4008D0DA0 /* DiffViewController.swift */,
-			);
-			path = Chapter4;
 			sourceTree = "<group>";
 		};
 		AC81DA362265CD7C008D0DA0 /* Protocols */ = {
@@ -228,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC81DA2A2265271F008D0DA0 /* Build configuration list for PBXNativeTarget "numericalAnalysis" */;
 			buildPhases = (
+				1FB9CA820830EACBA5A54BB7 /* [CP] Check Pods Manifest.lock */,
 				AC81DA142265271D008D0DA0 /* Sources */,
 				AC81DA152265271D008D0DA0 /* Frameworks */,
 				AC81DA162265271D008D0DA0 /* Resources */,
+				CAA726FDE2358B9D7D1F6021 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +262,7 @@
 				TargetAttributes = {
 					AC81DA172265271D008D0DA0 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -288,6 +298,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FB9CA820830EACBA5A54BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-numericalAnalysis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA726FDE2358B9D7D1F6021 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-numericalAnalysis/Pods-numericalAnalysis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-numericalAnalysis/Pods-numericalAnalysis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC81DA142265271D008D0DA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -299,7 +356,6 @@
 				AC81DA482265E080008D0DA0 /* CoordinatedNavigationController.swift in Sources */,
 				AC81DA452265E012008D0DA0 /* Coordinator.swift in Sources */,
 				AC81DA432265DF54008D0DA0 /* HomeCoordinator.swift in Sources */,
-				AC81DA3522652DA4008D0DA0 /* DiffViewController.swift in Sources */,
 				AC81DA542265F2B8008D0DA0 /* Chapter.swift in Sources */,
 				AC81DA3122652CFD008D0DA0 /* ForwardDiffrentiation.swift in Sources */,
 				AC81DA1C2265271D008D0DA0 /* AppDelegate.swift in Sources */,
@@ -452,8 +508,10 @@
 		};
 		AC81DA2B2265271F008D0DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18DE572F5D31BDE36812552 /* Pods-numericalAnalysis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53S9T268HG;
 				INFOPLIST_FILE = numericalAnalysis/Info.plist;
@@ -463,6 +521,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ks.numericalAnalysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "numericalAnalysis/numericalAnalysis-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,8 +530,10 @@
 		};
 		AC81DA2C2265271F008D0DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A843CD066D5D749B7D6515C /* Pods-numericalAnalysis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 53S9T268HG;
 				INFOPLIST_FILE = numericalAnalysis/Info.plist;
@@ -481,6 +543,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ks.numericalAnalysis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "numericalAnalysis/numericalAnalysis-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
