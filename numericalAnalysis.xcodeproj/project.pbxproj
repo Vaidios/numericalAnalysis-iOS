@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		AC81DA1C2265271D008D0DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */; };
-		AC81DA1E2265271D008D0DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA1D2265271D008D0DA0 /* ViewController.swift */; };
+		AC81DA1E2265271D008D0DA0 /* MainTabBarContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA1D2265271D008D0DA0 /* MainTabBarContoller.swift */; };
 		AC81DA212265271D008D0DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC81DA1F2265271D008D0DA0 /* Main.storyboard */; };
 		AC81DA232265271F008D0DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC81DA222265271F008D0DA0 /* Assets.xcassets */; };
 		AC81DA262265271F008D0DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC81DA242265271F008D0DA0 /* LaunchScreen.storyboard */; };
 		AC81DA2F22652CB4008D0DA0 /* BaseDiffrentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA2E22652CB4008D0DA0 /* BaseDiffrentiation.swift */; };
 		AC81DA3122652CFD008D0DA0 /* ForwardDiffrentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3022652CFD008D0DA0 /* ForwardDiffrentiation.swift */; };
 		AC81DA3322652D2F008D0DA0 /* BackwardDiffrentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3222652D2F008D0DA0 /* BackwardDiffrentiation.swift */; };
-		AC81DA3522652DA4008D0DA0 /* DiffrentiationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3422652DA4008D0DA0 /* DiffrentiationViewController.swift */; };
+		AC81DA3522652DA4008D0DA0 /* DiffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA3422652DA4008D0DA0 /* DiffViewController.swift */; };
 		AC81DA382265CEFC008D0DA0 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA372265CEFC008D0DA0 /* Storyboarded.swift */; };
 		AC81DA3A2265D402008D0DA0 /* NumericalAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */; };
+		AC81DA432265DF54008D0DA0 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA422265DF54008D0DA0 /* HomeCoordinator.swift */; };
+		AC81DA452265E012008D0DA0 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA442265E012008D0DA0 /* Coordinator.swift */; };
+		AC81DA482265E080008D0DA0 /* CoordinatedNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA472265E080008D0DA0 /* CoordinatedNavigationController.swift */; };
+		AC81DA4A2265E1A2008D0DA0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA492265E1A2008D0DA0 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC81DA182265271D008D0DA0 /* numericalAnalysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numericalAnalysis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC81DA1D2265271D008D0DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC81DA1D2265271D008D0DA0 /* MainTabBarContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarContoller.swift; sourceTree = "<group>"; };
 		AC81DA202265271D008D0DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC81DA222265271F008D0DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC81DA252265271F008D0DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,9 +35,13 @@
 		AC81DA2E22652CB4008D0DA0 /* BaseDiffrentiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDiffrentiation.swift; sourceTree = "<group>"; };
 		AC81DA3022652CFD008D0DA0 /* ForwardDiffrentiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardDiffrentiation.swift; sourceTree = "<group>"; };
 		AC81DA3222652D2F008D0DA0 /* BackwardDiffrentiation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackwardDiffrentiation.swift; sourceTree = "<group>"; };
-		AC81DA3422652DA4008D0DA0 /* DiffrentiationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffrentiationViewController.swift; sourceTree = "<group>"; };
+		AC81DA3422652DA4008D0DA0 /* DiffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffViewController.swift; sourceTree = "<group>"; };
 		AC81DA372265CEFC008D0DA0 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
 		AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericalAnalysis.swift; sourceTree = "<group>"; };
+		AC81DA422265DF54008D0DA0 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		AC81DA442265E012008D0DA0 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AC81DA472265E080008D0DA0 /* CoordinatedNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatedNavigationController.swift; sourceTree = "<group>"; };
+		AC81DA492265E1A2008D0DA0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,11 +55,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1307A16F176EFC6278BD5C9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC81DA0F2265271D008D0DA0 = {
 			isa = PBXGroup;
 			children = (
 				AC81DA1A2265271D008D0DA0 /* numericalAnalysis */,
 				AC81DA192265271D008D0DA0 /* Products */,
+				1307A16F176EFC6278BD5C9D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,16 +82,18 @@
 		AC81DA1A2265271D008D0DA0 /* numericalAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				AC81DA462265E066008D0DA0 /* Reusables */,
+				AC81DA402265DF22008D0DA0 /* Tabs */,
 				AC81DA3B2265D4B8008D0DA0 /* Math */,
 				AC81DA362265CD7C008D0DA0 /* Protocols */,
-				AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */,
-				AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */,
-				AC81DA1D2265271D008D0DA0 /* ViewController.swift */,
 				AC81DA2D22652C35008D0DA0 /* Chapter4 */,
-				AC81DA1F2265271D008D0DA0 /* Main.storyboard */,
 				AC81DA222265271F008D0DA0 /* Assets.xcassets */,
+				AC81DA1B2265271D008D0DA0 /* AppDelegate.swift */,
+				AC81DA1D2265271D008D0DA0 /* MainTabBarContoller.swift */,
+				AC81DA1F2265271D008D0DA0 /* Main.storyboard */,
 				AC81DA242265271F008D0DA0 /* LaunchScreen.storyboard */,
 				AC81DA272265271F008D0DA0 /* Info.plist */,
+				AC81DA392265D402008D0DA0 /* NumericalAnalysis.swift */,
 			);
 			path = numericalAnalysis;
 			sourceTree = "<group>";
@@ -83,7 +101,7 @@
 		AC81DA2D22652C35008D0DA0 /* Chapter4 */ = {
 			isa = PBXGroup;
 			children = (
-				AC81DA3422652DA4008D0DA0 /* DiffrentiationViewController.swift */,
+				AC81DA3422652DA4008D0DA0 /* DiffViewController.swift */,
 			);
 			path = Chapter4;
 			sourceTree = "<group>";
@@ -92,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				AC81DA372265CEFC008D0DA0 /* Storyboarded.swift */,
+				AC81DA442265E012008D0DA0 /* Coordinator.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -136,6 +155,31 @@
 				AC81DA3222652D2F008D0DA0 /* BackwardDiffrentiation.swift */,
 			);
 			path = "Chapter 4";
+			sourceTree = "<group>";
+		};
+		AC81DA402265DF22008D0DA0 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				AC81DA412265DF2E008D0DA0 /* Home */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		AC81DA412265DF2E008D0DA0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AC81DA422265DF54008D0DA0 /* HomeCoordinator.swift */,
+				AC81DA492265E1A2008D0DA0 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AC81DA462265E066008D0DA0 /* Reusables */ = {
+			isa = PBXGroup;
+			children = (
+				AC81DA472265E080008D0DA0 /* CoordinatedNavigationController.swift */,
+			);
+			path = Reusables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,14 +253,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC81DA1E2265271D008D0DA0 /* ViewController.swift in Sources */,
+				AC81DA1E2265271D008D0DA0 /* MainTabBarContoller.swift in Sources */,
 				AC81DA3322652D2F008D0DA0 /* BackwardDiffrentiation.swift in Sources */,
-				AC81DA3522652DA4008D0DA0 /* DiffrentiationViewController.swift in Sources */,
+				AC81DA482265E080008D0DA0 /* CoordinatedNavigationController.swift in Sources */,
+				AC81DA452265E012008D0DA0 /* Coordinator.swift in Sources */,
+				AC81DA432265DF54008D0DA0 /* HomeCoordinator.swift in Sources */,
+				AC81DA3522652DA4008D0DA0 /* DiffViewController.swift in Sources */,
 				AC81DA3122652CFD008D0DA0 /* ForwardDiffrentiation.swift in Sources */,
 				AC81DA1C2265271D008D0DA0 /* AppDelegate.swift in Sources */,
 				AC81DA2F22652CB4008D0DA0 /* BaseDiffrentiation.swift in Sources */,
 				AC81DA3A2265D402008D0DA0 /* NumericalAnalysis.swift in Sources */,
 				AC81DA382265CEFC008D0DA0 /* Storyboarded.swift in Sources */,
+				AC81DA4A2265E1A2008D0DA0 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
