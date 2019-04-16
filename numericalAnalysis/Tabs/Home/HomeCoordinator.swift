@@ -17,7 +17,7 @@ class HomeCoordinator: Coordinator {
         navigationController.coordinator = self
         
         let viewController = HomeViewController.instantiate()
-        viewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(contentsOfFile: "Home"), tag: 0)
+        viewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "Home"), tag: 0)
         viewController.coordinator = self
         
         navigationController.viewControllers = [viewController]
@@ -26,8 +26,12 @@ class HomeCoordinator: Coordinator {
         navigationController.pushViewController(viewController, animated: true)
     }
     func startTopic(title: String) {
-        let viewController = TopicViewController.instantiate()
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        guard let viewController = sb.instantiateViewController(withIdentifier: title) as? TopicViewController else { fatalError("Invalid identifier") }
+        //let viewController = TopicViewController.instantiate()
         viewController.coordinator = self
+        viewController.hidesBottomBarWhenPushed = true
+        viewController.title = title
         startTopic(using: viewController)
     }
 }

@@ -10,27 +10,33 @@ import UIKit
 import iosMath
 
 class TopicViewController: UIViewController, Storyboarded {
+    
+    @IBOutlet var equationView: UIView!
+    
     var latexLabel: MTMathUILabel?
     var coordinator: HomeCoordinator?
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        equationView.backgroundColor = .red
         view.backgroundColor = .white
         assert(coordinator != nil, "You must set coordinator first")
-        title = "Topic"
         navigationItem.largeTitleDisplayMode = .never
         print(iosMathVersionNumber)
         latexLabel = MTMathUILabel()
-        latexLabel?.bounds.size.width = view.bounds.width - 20
-        latexLabel?.bounds.size.height = view.bounds.height - 40
-        latexLabel?.center = view.center
+        latexLabel?.bounds.size.width = equationView.bounds.width
+        latexLabel?.bounds.size.height = equationView.bounds.height
+        latexLabel?.center = CGPoint(x: equationView.bounds.size.width / 2, y: equationView.bounds.size.height / 2)
+        print(equationView.center)
         latexLabel?.alpha = 1
         latexLabel?.latex = "x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}"
         latexLabel?.isHidden = false
-        latexLabel?.contentInsets = UIEdgeInsets(top: 100, left: 10, bottom: 0, right: 20)
-        
-        view.addSubview(latexLabel!)
-        
+        latexLabel?.textAlignment = MTTextAlignment.center
+        latexLabel?.backgroundColor = .blue
+        //latexLabel?.contentInsets = UIEdgeInsets(top: 100, left: 10, bottom: 0, right: 20)
+        //scrollView.addSubview(latexLabel!)
+        //latexLabel?.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 400).isActive = true
+        //latexLabel?.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 1000).isActive = true
         //view.addSubview(latexLabel!)
+        equationView.addSubview(latexLabel!)
     }
 }
