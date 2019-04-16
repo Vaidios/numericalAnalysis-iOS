@@ -27,6 +27,7 @@
 		AC81DA522265F13B008D0DA0 /* BundleLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA512265F13B008D0DA0 /* BundleLoading.swift */; };
 		AC81DA542265F2B8008D0DA0 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA532265F2B8008D0DA0 /* Chapter.swift */; };
 		AC81DA572265F6DB008D0DA0 /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA562265F6DB008D0DA0 /* TopicViewController.swift */; };
+		AC81DA5E22663A95008D0DA0 /* TaylorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC81DA5D22663A95008D0DA0 /* TaylorDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		AC81DA532265F2B8008D0DA0 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		AC81DA562265F6DB008D0DA0 /* TopicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
 		AC81DA592266002C008D0DA0 /* numericalAnalysis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "numericalAnalysis-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC81DA5D22663A95008D0DA0 /* TaylorDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorDataSource.swift; sourceTree = "<group>"; };
 		E48ED31701C7D23E61F2A377 /* Pods_numericalAnalysis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_numericalAnalysis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18DE572F5D31BDE36812552 /* Pods-numericalAnalysis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-numericalAnalysis.debug.xcconfig"; path = "Target Support Files/Pods-numericalAnalysis/Pods-numericalAnalysis.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				AC81DA562265F6DB008D0DA0 /* TopicViewController.swift */,
+				AC81DA5D22663A95008D0DA0 /* TaylorDataSource.swift */,
 			);
 			path = Topic;
 			sourceTree = "<group>";
@@ -330,12 +333,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-numericalAnalysis/Pods-numericalAnalysis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftDataTables/SwiftDataTables.framework",
 				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDataTables.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +362,7 @@
 				AC81DA452265E012008D0DA0 /* Coordinator.swift in Sources */,
 				AC81DA432265DF54008D0DA0 /* HomeCoordinator.swift in Sources */,
 				AC81DA542265F2B8008D0DA0 /* Chapter.swift in Sources */,
+				AC81DA5E22663A95008D0DA0 /* TaylorDataSource.swift in Sources */,
 				AC81DA3122652CFD008D0DA0 /* ForwardDiffrentiation.swift in Sources */,
 				AC81DA1C2265271D008D0DA0 /* AppDelegate.swift in Sources */,
 				AC81DA2F22652CB4008D0DA0 /* BaseDiffrentiation.swift in Sources */,

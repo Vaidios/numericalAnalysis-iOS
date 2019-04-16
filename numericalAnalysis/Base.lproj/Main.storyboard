@@ -89,6 +89,13 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ipf-nR-dq9">
+                                                <rect key="frame" x="0.0" y="136" width="414" height="200"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="eWZ-4Y-Mgb"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -98,8 +105,11 @@
                                             <constraint firstItem="XYA-aZ-3Pw" firstAttribute="top" secondItem="WjZ-TY-WLi" secondAttribute="top" id="A8N-KG-4xm"/>
                                             <constraint firstItem="XYA-aZ-3Pw" firstAttribute="width" secondItem="WjZ-TY-WLi" secondAttribute="width" id="MHu-fD-JaF"/>
                                             <constraint firstAttribute="bottom" secondItem="LV8-T8-Abl" secondAttribute="bottom" constant="42" id="OhU-Kp-4yL"/>
+                                            <constraint firstItem="ipf-nR-dq9" firstAttribute="leading" secondItem="WjZ-TY-WLi" secondAttribute="leading" id="Xr9-hF-udA"/>
                                             <constraint firstItem="LV8-T8-Abl" firstAttribute="centerX" secondItem="WjZ-TY-WLi" secondAttribute="centerX" id="YpN-Xl-WwQ"/>
                                             <constraint firstItem="GAM-hO-pXk" firstAttribute="centerX" secondItem="WjZ-TY-WLi" secondAttribute="centerX" id="aMU-4X-TOw"/>
+                                            <constraint firstItem="ipf-nR-dq9" firstAttribute="width" secondItem="WjZ-TY-WLi" secondAttribute="width" id="bn4-aZ-iEJ"/>
+                                            <constraint firstItem="ipf-nR-dq9" firstAttribute="top" secondItem="XYA-aZ-3Pw" secondAttribute="bottom" constant="8" id="c4x-AV-mKX"/>
                                             <constraint firstItem="GAM-hO-pXk" firstAttribute="top" secondItem="WjZ-TY-WLi" secondAttribute="top" constant="26" id="i6F-TM-l5w"/>
                                             <constraint firstItem="XYA-aZ-3Pw" firstAttribute="leading" secondItem="WjZ-TY-WLi" secondAttribute="leading" id="oPt-bY-mBs"/>
                                         </constraints>
@@ -128,6 +138,7 @@
                     <size key="freeformSize" width="414" height="1500"/>
                     <connections>
                         <outlet property="equationView" destination="XYA-aZ-3Pw" id="erG-1i-wdz"/>
+                        <outlet property="tableView" destination="ipf-nR-dq9" id="JB7-ZS-LCH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ifA-o8-NfA" userLabel="First Responder" sceneMemberID="firstResponder"/>

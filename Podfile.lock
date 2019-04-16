@@ -1,16 +1,20 @@
 PODS:
   - iosMath (0.9.4)
+  - SwiftDataTables (0.7.2)
 
 DEPENDENCIES:
   - iosMath
+  - SwiftDataTables
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - iosMath
+    - SwiftDataTables
 
 SPEC CHECKSUMS:
   iosMath: f7a6cbadf9d836d2149c2a84c435b1effc244cba
+  SwiftDataTables: 909d717dafcf8d3b4f4b7e217a8cb29501784aa0
 
-PODFILE CHECKSUM: 84320c9d4867f79eb4a2dcb62cb0f5ac12a12a7b
+PODFILE CHECKSUM: e8d3ca976748d28f6a97c79e2df506ed10c04275
 
 COCOAPODS: 1.6.1
