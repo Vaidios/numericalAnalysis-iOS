@@ -22,4 +22,11 @@ class HomeCoordinator: Coordinator {
         
         navigationController.viewControllers = [viewController]
     }
+    func startTopic(using viewController: UIViewController) {
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    func startTopic(title: String) {
+        let viewController = TopicViewController()
+        startTopic(using: viewController)
+    }
 }

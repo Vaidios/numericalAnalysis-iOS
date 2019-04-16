@@ -1,5 +1,5 @@
 //
-//  NumericalAnalysis.swift
+//  TopicViewController.swift
 //  numericalAnalysis
 //
 //  Created by Kamil Sosna on 16/04/2019.
@@ -8,7 +8,6 @@
 
 import UIKit
 
-enum NumericalAnalysis {
+class TopicViewController: UIViewController {
     
-    static let chapters = Bundle.main.decode([Chapter].self, from: "Chapters.json")
 }

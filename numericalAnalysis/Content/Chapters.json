@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Theory of Errors",
+        "sections": [
+            "Total differential",
+            "Value intervals"
+        ]
+    },
+    {
+        "name": "Numerical diffrentiation",
+        "sections": [
+            "Taylor Formula"
+        ]
+    }
+]

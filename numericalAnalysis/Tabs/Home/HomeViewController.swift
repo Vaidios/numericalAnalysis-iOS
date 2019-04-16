@@ -11,12 +11,20 @@ import UIKit
 class HomeViewController: UITableViewController, Storyboarded {
     var coordinator: HomeCoordinator?
     
+    let dataSource = HomeDataSource()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         assert(coordinator != nil, "Coordinator has to be set before presenting controller")
         title = "Home"
+        tableView.dataSource = dataSource
+        tableView.delegate = dataSource
+        dataSource.delegate = self
         
-        
+    }
+    
+    func startTopic(title: String) {
+        coordinator?.startTopic(title: title)
     }
 }
