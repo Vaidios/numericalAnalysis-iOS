@@ -26,13 +26,6 @@ class TopicViewController: UIViewController, Storyboarded {
         navigationItem.largeTitleDisplayMode = .never
         print(iosMathVersionNumber)
         configEquation()
-//        table.backgroundColor = .white
-//        table.bounds.size = tableView.bounds.size
-//        table.center = CGPoint(x: tableView.bounds.size.width / 2, y: tableView.bounds.size.height / 2)
-//        print(table.bounds.size)
-//        tableView.addSubview(table)
-        //title = "Streaming fans"
-        //dataTable.center = CGPoint(x: tableView.bounds.size.width / 2, y: -200)
         equationView.addSubview(latexLabel)
         tableView.addSubview(dataTable)
         
