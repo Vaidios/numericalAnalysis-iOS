@@ -43,6 +43,7 @@ class TopicViewController: UIViewController, Storyboarded {
         let dataTable = SwiftDataTable(dataSource: self)
         dataTable.delegate = self
         dataTable.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        dataTable.backgroundColor = .gray
         return dataTable
     }
     private func configEquation() {
@@ -117,6 +118,9 @@ extension TopicViewController: SwiftDataTableDataSource {
         return self.headerTitles[columnIndex]
     }
     
+    func shouldShowSearchSection(in dataTable: SwiftDataTable) -> Bool {
+        return false
+    }
     
 }
 
